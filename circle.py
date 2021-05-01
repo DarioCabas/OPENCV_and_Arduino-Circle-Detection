@@ -42,11 +42,11 @@ while(True):
 	gray = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
             cv2.THRESH_BINARY,11,3.5)
 	
-	# kernel = np.ones((2.6,2.7),np.uint8)
-	# gray = cv2.erode(gray,kernel,iterations = 1)
+	kernel = np.ones((2,6,2,7),np.uint8)
+	gray = cv2.erode(gray,kernel,iterations = 1)
 	# gray = erosion
 	
-	#gray = cv2.dilate(gray,kernel,iterations = 1)
+	gray = cv2.dilate(gray,kernel,iterations = 1)
 	# gray = dilation
 
 	# get the size of the final image

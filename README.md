@@ -71,6 +71,21 @@ https://github.com/DarioCabas/2wheel_robot
   <img width="500" height="500" src="https://im3.ezgif.com/tmp/ezgif-3-15e6f6117fe7.gif">
 </p>
 
+**Arduino working**
+<p align="center">
+<img width="500" height="300" src="image/arduino.jpeg" alt="Logo">
+</p>
+
+**Servomotor**
+<p align="center">
+<img width="500" height="300" src="image/servo.jpeg" alt="Logo">
+</p>
+
+**Servomotor and Arduino**
+<p align="center">
+<img width="500" height="300" src="image/arduino_servo.jpeg" alt="Logo">
+</p>
+
 ## Deployment📦
 
 _Don't forget to close the IDE of arduino when you run the project:_
